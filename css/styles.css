@@ -1,0 +1,134 @@
+@import url('http://fonts.googleapis.com/css2?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3c3c3c;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.img-logo {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #8d0e0e;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fraseSonho {
+    color: white;
+    position: absolute;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 14px;
+}
+
+.headerAgende {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.btn-actions {
+    position: absolute;
+    left: 50px;
+}
+
+button {
+    background-color: rgb(05, 05, 05);
+    color: aliceblue;
+    width: 400px;
+    height: 55px;
+    border: 2px solid #3c3c3c;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e7e710;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 10px;
+    width: 100%;
+    bottom: 0%;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer>p {
+    justify-content: center;
+    margin-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Responsividade */
+
+@media (max-width: 480px) {
+
+    .img-logo {
+        width: 128px;
+        height: 128px;
+    }
+
+    .fraseSonho {
+        font-size: 14px;
+        position: absolute;
+        top: 190px;
+    }
+
+    .headerAgende {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+    }
+
+    button {
+        width: 400px;
+        height: 55px;
+        max-width: 100%;
+    }
+
+    .btn-actions {
+        position: absolute;
+        left: 28px;
+    }
+}
