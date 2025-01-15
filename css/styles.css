@@ -13,13 +13,13 @@ body {
 
 
 .img-logo {
-    width: 160px;
-    height: 160px;
+    width: 300px;
+    height: 150px;
     position: absolute;
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3px solid #8d0e0e;
+    border: 3px solid #0631ee;
     border-radius: 10px;
     align-items: center;
     cursor: pointer;
@@ -66,7 +66,7 @@ button {
 }
 
 button:hover {
-    background-color: #e7e710;
+    background-color: #dada14;
     cursor: pointer;
 }
 
