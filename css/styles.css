@@ -13,14 +13,13 @@ body {
 
 
 .img-logo {
-    width: 310px;
+    width: 320px;
     height: 150px;
     position: absolute;
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3px solid #1837c0;
-    border-radius: 10px;
+    border:none;
     align-items: center;
     cursor: pointer;
 }
