@@ -75,7 +75,7 @@
         }
 
         footer {
-            background-color: rgba(0, 0, 0, 0.2);
+            background-color: #222;
             position: absolute;
             display: flex;
             flex-direction: column;
@@ -90,6 +90,52 @@
             text-align: center;
             text-decoration: none;
             color: aliceblue;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header {
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #menu {
+                position: static;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding-top: 10px;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            #whatsapp {
+                right: 5%;
+                bottom: 5%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header img {
+                width: 300px;
+            }
+
+            #menu {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+
+            #whatsapp {
+                right: 10%;
+                bottom: 10%;
+            }
         }
     </style>
 </head>
