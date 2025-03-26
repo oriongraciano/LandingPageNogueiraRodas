@@ -61,11 +61,11 @@ header {
     transform: scale(1.05);
 }
 
-#btnwhatsapp {
+#btnwhatsapp a {
     display: flex;
     position: fixed;
-    left: 92%;
-    top: 80%;
+    left: 82%;
+    top: 85%;
 
 }
 
@@ -105,11 +105,6 @@ footer>p {
     .gallery {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
-
-    #btnwhatsapp {
-        right: 5%;
-        bottom: 5%;
-    }
 }
 
 @media (max-width: 480px) {
@@ -125,10 +120,5 @@ footer>p {
 
     .gallery {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-
-    .bi-whatsapp {
-        right: 50%;
-        bottom: 10%;
     }
 }
