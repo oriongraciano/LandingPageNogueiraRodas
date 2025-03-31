@@ -13,8 +13,8 @@ body {
 
 
 .img-logo {
-    width: 350px;
-    height: 150px;
+    width: 360px;
+    height: 120px;
     position: absolute;
     top: 12%;
     left: 50%;
@@ -102,8 +102,8 @@ footer>p {
 @media (max-width: 480px) {
 
     .img-logo {
-        width: 128px;
-        height: 128px;
+        width: 150px;
+        height: 120px;
     }
 
     .fraseSonho {
@@ -122,12 +122,16 @@ footer>p {
 
     button {
         width: 400px;
-        height: 55px;
+        height: 50px;
         max-width: 100%;
     }
 
     .btn-actions {
         position: absolute;
         left: 28px;
+    }
+
+    footer>div {
+        margin-top: 2px;
     }
 }
