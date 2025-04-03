@@ -60,13 +60,16 @@ header {
 .image-container:target {
     position: fixed;
     width: 400px;
-    top: 190px;
-    left: 36%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -32%;
 }
 
-.image-container #fechar{display: none;}
+.image-container #fechar {
+    display: none;
+}
 
-.image-container:target #fechar{
+.image-container:target #fechar {
     display: block;
 }
 
@@ -124,9 +127,10 @@ footer>p {
 
     .image-container:target {
         position: fixed;
-        width: 250px;
-        top: 35%;
-        left: 60px;
+        width: 280px;
+        top: 50%;
+        left: 50%;
+        translate: -50% -32%;
     }
 
     #menu {
