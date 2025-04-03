@@ -124,9 +124,9 @@ footer>p {
 
     .image-container:target {
         position: fixed;
-        width: 60%;
+        width: 260px;
         top: 33%;
-        left: 18%;
+        left: 15%;
     }
 
     #menu {
