@@ -59,7 +59,7 @@ header {
 
 .image-container:target {
     position: fixed;
-    width: 25%;
+    width: 400px;
     top: 190px;
     left: 36%;
 }
@@ -124,7 +124,7 @@ footer>p {
 
     .image-container:target {
         position: fixed;
-        width: 260px;
+        width: 280px;
         top: 33%;
         left: 15%;
     }
