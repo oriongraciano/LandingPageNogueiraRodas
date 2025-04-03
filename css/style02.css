@@ -57,9 +57,19 @@ header {
     transition: transform 0.3s ease;
 }
 
-.image-container:hover img {
-    transform: scale(1.05);
+.image-container:target {
+    position: fixed;
+    width: 25%;
+    top: 190px;
+    left: 36%;
 }
+
+.image-container #fechar{display: none;}
+
+.image-container:target #fechar{
+    display: block;
+}
+
 
 #btnwhatsapp a {
     display: flex;
@@ -110,6 +120,13 @@ footer>p {
 @media (max-width: 480px) {
     header img {
         width: 300px;
+    }
+
+    .image-container:target {
+        position: fixed;
+        width: 60%;
+        top: 33%;
+        left: 18%;
     }
 
     #menu {
