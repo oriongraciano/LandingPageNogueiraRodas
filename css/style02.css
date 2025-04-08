@@ -19,9 +19,8 @@ header {
     font-size: 18px;
     font-weight: bold;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     list-style-type: none;
-    text-align: center;
     justify-content: space-around;
     position: absolute;
     left: 70%;
@@ -77,8 +76,9 @@ header {
 #btnwhatsapp a {
     display: flex;
     position: fixed;
-    left: 82%;
+    left: 85%;
     top: 85%;
+    translate: -50% -50%;
 
 }
 
@@ -116,7 +116,7 @@ footer>p {
     }
 
     .gallery {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
 }
 
@@ -134,9 +134,10 @@ footer>p {
     }
 
     #menu {
+        text-align: center;
+        align-items: center;
         text-decoration: none;
         gap: 15px;
-        align-items: center;
     }
 
     .gallery {
