@@ -174,7 +174,8 @@ footer>p {
     }
 
     .modal {
-        max-width: 80%;
+        max-width: 90%;
+        width: 400px;
         height: 260px;
     }
 
