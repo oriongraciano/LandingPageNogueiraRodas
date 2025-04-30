@@ -45,7 +45,7 @@ header {
 
 
 .modal {
-    background-color: rgb(100, 175, 240);
+    background-color: rgb(220, 220, 30);
     color: black;
     position: fixed;
     left: 50%;
@@ -54,15 +54,25 @@ header {
     text-align: center;
     align-items: center;
     width: 420px;
-    height: 380px;
+    height: 350px;
     border-radius: 12px;
     display: none;
     z-index: 99;
 }
 
+#textoModal {
+    margin: 12px;
+    text-align: center;
+}
+
 .btnModal {
+    display: flex;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    translate: -50% -50%;
     border: none;
-    margin: 15px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
