@@ -9,17 +9,17 @@ const textomodal = document.querySelector("#textoModal")
 
 
 openModalButton1.addEventListener("click", function() {
-    textomodal.innerHTML = 'Somos uma empresa com mais de 40 anos no mercado especializada em Pneus Rodas e Acessorios';
+    textomodal.innerHTML = 'Somos uma empresa com mais de 40 anos de atuação no mercado, localizada em Caldas Novas – GO.<br> Somos especializados em pneus, rodas e acessórios, oferecendo qualidade, confiança e experiência construídas ao longo de décadas de compromisso com nossos clientes.';
     modal.style.display ="flex" 
  })
 
  openModalButton2.addEventListener("click", function() {
-    textomodal.innerHTML = 'Estamos localizados na Rua. 8 - Estância Itaici, Caldas Novas - GO';
+    textomodal.innerHTML = 'Estamos localizados na Rua. 8 - Estância Itaici, Caldas Novas - GO. <br>  Faça nos uma visita.';
     modal.style.display ="flex" 
  })
 
  openModalButton3.addEventListener("click", function() {
-    textomodal.innerHTML = 'Entre em contato conosco pelo WhatsApp (62) 99225-2825 ou nos visite em nossa loja física.';
+    textomodal.innerHTML = 'Entre em contato conosco pelo WhatsApp (62) 99225-2825 <br> ou pelas nossas redes sociais.';
     modal.style.display ="flex"
  })
 
